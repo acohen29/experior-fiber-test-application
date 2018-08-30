@@ -1,0 +1,13 @@
+TO IMPLEMENT NEW DEVICE:
+1) Copy or create a new device program that utilizes the Queue Message Handling functions
+2) Get the GPIB *IDN? command return for the new device
+3) Open the "OpenSubProcess" VI located in trunk\Support\Configuration
+4) Follow instructions in the VI block diagram to add your new device program as a SubVI
+5) Open the "Main" VI located in trunk and then add the device IDN return to the string array at the far left
+Note: There are several messages that the main VI requires that the SubVI have in order to function
+
+TO ADD NEW STANDARD
+1) Open the "IL-RL Standards" VI located in trunk\Support
+2) Follow instructions on front panel
+Note: Requires that you make values default in order to save values
+

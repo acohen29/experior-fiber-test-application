@@ -1,0 +1,7 @@
+To Do
+
+1) Edit images and create instructions for Viavi (especially multi channel and pRatio images/instructions)
+2) Implement cutback method
+3) Create SubVI template for future programs
+4) Create SubVI for JGR
+5) Improve UI button appearances (images/photoshop buttons)

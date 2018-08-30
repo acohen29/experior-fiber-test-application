@@ -1,0 +1,11 @@
+Viavi - Limitations
+1) The custom RL button cannot be reclicked after it has already been selected
+	Reason: The RL configs buttons are setup as radio buttons
+	Possible Fix: Create a cluster of buttons that would mimic the radio buttons but have different properties for custom config
+2) The slot number for the Viavi IL/RL Meter is hard coded into the program. This means that all Viavi's must have their respective IL/RL Meters in the same exact positions
+	Reason: There is only a single variable in the program that dictates the value for the slot number
+	Possible Fix: Have the Viavi SubVI know which viavi is in use (using *IDN) and then have variable slot value based on the device IDN
+3) The program does not support having multiple switches connected to a single Map-200
+	Reason: There would be no device to test the programming on
+	Possible Fix: Have the Viavi SubVI know which viavi is in use (using *IDN) and then have a case structure and switch variable to execute
+4) 
